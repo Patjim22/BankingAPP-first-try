@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingAPP", "BankingAPP\BankingAPP.csproj", "{6845C4DF-3512-43A3-8DF4-770BDF5B935C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingAPP.BL", "BankingAPP.BL\BankingAPP.BL.csproj", "{D473AF12-5635-4E20-92EE-3AF01C339834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{DD12FAD5-B060-4C4D-8EA7-FA86C117E8D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingAppTest", "BankingAppTest\BankingAppTest.csproj", "{D44EDA1F-C4CB-4EF5-8F6E-FC600ADAE955}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6845C4DF-3512-43A3-8DF4-770BDF5B935C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6845C4DF-3512-43A3-8DF4-770BDF5B935C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6845C4DF-3512-43A3-8DF4-770BDF5B935C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6845C4DF-3512-43A3-8DF4-770BDF5B935C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D473AF12-5635-4E20-92EE-3AF01C339834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D473AF12-5635-4E20-92EE-3AF01C339834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D473AF12-5635-4E20-92EE-3AF01C339834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D473AF12-5635-4E20-92EE-3AF01C339834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44EDA1F-C4CB-4EF5-8F6E-FC600ADAE955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44EDA1F-C4CB-4EF5-8F6E-FC600ADAE955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44EDA1F-C4CB-4EF5-8F6E-FC600ADAE955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44EDA1F-C4CB-4EF5-8F6E-FC600ADAE955}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D44EDA1F-C4CB-4EF5-8F6E-FC600ADAE955} = {DD12FAD5-B060-4C4D-8EA7-FA86C117E8D1}
+	EndGlobalSection
+EndGlobal
